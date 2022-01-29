@@ -4,6 +4,8 @@
 
 * React JS
 * JavaScript
+* HTML
+* CSS
 * Bootstrap
 * Material-ui
 * Redux
