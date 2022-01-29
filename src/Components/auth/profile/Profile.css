@@ -1,0 +1,48 @@
+.profile-MainDiv {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 0.5rem;
+}
+.profile-childDiv1 {
+  display: flex;
+}
+
+.profile-childDiv2 {
+  margin-top: 4rem;
+}
+.profile-nameDiv {
+  text-align: center;
+  margin-left: 6rem;
+  display: inline-block;
+}
+.profile-nameH {
+  margin-top: 1rem;
+}
+
+.profile-nameAndBtn {
+  height: 3rem;
+}
+.profile-editProfileBtn {
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+.profile-imgDiv {
+  margin: 2rem;
+  margin-left: 6rem;
+}
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.profile-cartCount {
+  margin-top: 3rem;
+  margin-left: 5rem;
+}
+.profile-cartMainDiv {
+  margin-left: 1rem;
+}

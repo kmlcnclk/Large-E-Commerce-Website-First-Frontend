@@ -1,0 +1,802 @@
+.card {
+  margin: 0.3rem;
+  padding: 0.3;
+  width: 16.2rem;
+  border-radius: 5px;
+}
+
+.product-card {
+  width: 100%;
+  justify-content: center;
+  display: block;
+}
+
+.price {
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.titleName {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.card-text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.card-body {
+  max-width: 100%;
+}
+
+.img {
+  width: 16.1rem;
+  height: 16.1rem;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  object-fit: contain;
+}
+
+@media only screen and (min-width:330px) and (max-width: 340px) {
+  .product-card {
+    padding: 0.1rem;
+  }
+
+  .card {
+    width: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .price {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .titleName {
+    width: 18rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .card-text {
+    width: 18rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (min-width:300px) and (max-width: 330px) {
+  .product-card {
+    padding: 0.1rem;
+  }
+
+  .card {
+    width: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .price {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .titleName {
+    width: 12rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .card-text {
+    width: 12rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+
+@media only screen and (max-width: 329px) {
+  .product-card {
+    padding: 0.1rem;
+  }
+
+  .card {
+    width: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .price {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .titleName {
+    width: 10rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .card-text {
+    width: 10rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (min-width:330px) and (max-width: 340px) {
+  .product-card {
+    padding: 0.1rem;
+  }
+
+  .card {
+    width: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .price {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .titleName {
+    width: 13.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .card-text {
+    width: 13.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (min-width: 340px) and (max-width: 360px) {
+  .product-card {
+    padding: 0.2rem;
+  }
+
+  .card {
+    width: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .price {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .titleName {
+    width: 15rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .card-text {
+    width: 15rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 380px) {
+  .product-card {
+    padding: 0.3rem;
+  }
+
+  .card {
+    width: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .price {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .titleName {
+    width: 16rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .card-text {
+    width: 16rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (min-width: 380px) and (max-width: 411px) {
+  .product-card {
+    padding: 0.3rem;
+  }
+
+  .card {
+    width: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .price {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .titleName {
+    width: 18.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .card-text {
+    width: 18.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (min-width: 412px) and (max-width: 418px) {
+  .product-card {
+    padding: 0.3rem;
+  }
+
+  .card {
+    width: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .price {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .titleName {
+    width: 18.7rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .card-text {
+    width: 18.7rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+
+@media only screen and (min-width: 418px) and (max-width: 425px) {
+  .product-card {
+    padding: 0.3rem;
+  }
+
+  .card {
+    width: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .price {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .titleName {
+    width: 16rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .card-text {
+    width: 16rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 455px) {
+  .product-card {
+    padding: 0.3rem;
+  }
+
+  .card {
+    width: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .price {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .titleName {
+    width: 19.3rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .card-text {
+    width: 19.3rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (min-width: 455px) and (max-width: 500px) {
+  .product-card {
+    padding: 0.5rem;
+  }
+
+  .card {
+    width: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .price {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .titleName {
+    width: 22rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .card-text {
+    width: 22rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 510px) {
+  .product-card {
+    padding: 0.5rem;
+  }
+
+  .card {
+    width: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .price {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .titleName {
+    width: 24rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .card-text {
+    width: 24rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (min-width: 510px) and (max-width: 536px) {
+  .product-card {
+    padding: 0.5rem;
+  }
+
+  .card {
+    width: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .price {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .titleName {
+    width: 26rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .card-text {
+    width: 26rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (min-width: 536px) and (max-width: 560px) {
+  .product-card {
+    padding: 0.5rem;
+  }
+
+  .card {
+    width: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .price {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .titleName {
+    width: 26.4rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .card-text {
+    width: 26.4rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (min-width: 560px) and (max-width: 570px) {
+  .product-card {
+    padding: 0.5rem;
+  }
+
+  .card {
+    width: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .price {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .titleName {
+    width: 27.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .card-text {
+    width: 27.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (min-width: 570px) and (max-width: 575px) {
+  .product-card {
+    padding: 0.5rem;
+  }
+
+  .card {
+    width: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .price {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .titleName {
+    width: 28.2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .card-text {
+    width: 28.2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (width: 576px) {
+  .product-card {
+    padding: 0.5rem;
+  }
+
+  .card {
+    width: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .price {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .titleName {
+    width: 26.2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .card-text {
+    width: 26.2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+  .product-card {
+    padding: 0.5rem;
+  }
+
+  .card {
+    width: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .price {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .titleName {
+    width: 26.2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .card-text {
+    width: 26.2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (width: 768px) {
+  .product-card {
+    padding: 0.5rem;
+  }
+
+  .card {
+    width: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .price {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .titleName {
+    width: 37.4rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .card-text {
+    width: 37.4rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (width: 1200px) {
+  .product-card {
+    width: 100%;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    justify-content: center;
+  }
+
+  .card {
+    width: 18rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+  }
+
+  .img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .product-card {
+    padding: 0.1rem;
+  }
+
+  .card {
+    width: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .price {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .titleName {
+    width: 21rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .card-text {
+    width: 21rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .img {
+    width: 26.8rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .product-card {
+    padding: 0.5rem;
+  }
+
+  .card {
+    width: auto;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .price {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .titleName {
+    width: 37.4rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .card-text {
+    width: 37.4rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .img {
+    width: 100%;
+    object-fit: contain;
+  }
+}

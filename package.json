@@ -1,0 +1,86 @@
+{
+  "name": "category-product",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@react-icons/all-files": "^4.1.0",
+    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "alertifyjs": "^1.13.1",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "bootstrap-icons": "^1.4.1",
+    "cra-template": "1.1.2",
+    "font-awesome": "^4.7.0",
+    "form-data": "^4.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "medium-zoom": "^1.0.6",
+    "query-string": "^7.0.0",
+    "react": "^17.0.2",
+    "react-avatar-editor": "^11.1.0",
+    "react-bootstrap": "^1.5.2",
+    "react-bootstrap-icons": "^1.4.0",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^11.3.2",
+    "react-easy-crop": "^3.3.2",
+    "react-icons": "^4.2.0",
+    "react-image-crop": "^8.6.6",
+    "react-image-gallery": "^1.0.9",
+    "react-loading-skeleton": "^2.2.0",
+    "react-medium-image-zoom": "^4.3.3",
+    "react-pose": "^4.0.10",
+    "react-redux": "^7.2.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-slideshow-image": "^3.4.6",
+    "react-spinners": "^0.10.6",
+    "react-spring": "^9.1.0",
+    "react-toastify": "^7.0.3",
+    "reactjs-popup": "^2.0.4",
+    "reactstrap": "^8.9.0",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.2.3",
+    "swiper": "^6.5.6",
+    "web-vitals": "^1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  }
+}
